@@ -80,7 +80,7 @@ export default function About() {
               reliable, scalable, and grounded in a genuine desire to solve
               problems that matter to real people.
             </p>
-            <a href="/Gift_Nestah_P_CV_v2_1.pdf" download className="about__dl-btn">
+            <a href="/Gift_Nestah_P_CV_v2.1.pdf" download className="about__dl-btn">
               ↓ Download CV
             </a>
           </div>
@@ -180,9 +180,9 @@ export default function About() {
 
         <div className="about__divider" />
 
-        {/* ── Education ── */}
+        {/* ── Education & Certifications ── */}
         <section className="about__section">
-          <span className="section-label">Education</span>
+          <span className="section-label">Education & certifications</span>
           <div className="about__timeline">
             {education.map((e, i) => (
               <div key={i} className="about__timeline-item">
@@ -194,15 +194,6 @@ export default function About() {
                 </div>
               </div>
             ))}
-          </div>
-        </section>
-
-        <div className="about__divider" />
-
-        {/* ── Certifications ── */}
-        <section className="about__section">
-          <span className="section-label">Certifications</span>
-          <div className="about__timeline">
             {certifications.map((c, i) => (
               <div key={i} className="about__timeline-item">
                 <div className="about__timeline-period">{c.year}</div>
