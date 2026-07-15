@@ -25,7 +25,7 @@
 }
 
 .about__name {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: var(--fw-medium);
   color: var(--clr-text-primary);
   letter-spacing: -0.4px;
